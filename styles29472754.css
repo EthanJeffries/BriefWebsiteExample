@@ -1,0 +1,357 @@
+.homepage-container{
+    display: flex;
+    width: 895px;
+}
+.header-bar{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    height: 72px;
+    width: 890px;
+    align-items: center;
+    z-index: 100;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+
+}
+.header-title{
+    color: rgb(173, 149, 88);
+    padding-left: 83px;
+}
+.header-white-space{
+    flex: 1;
+}
+.header-pages{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    padding-right: 45px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.header-home{
+    color: rgb(136, 116, 65);
+}
+.header-services:hover, 
+.header-about:hover, 
+.header-gallery:hover, 
+.header-contact:hover{
+    cursor: pointer;
+    color: rgb(136, 116, 65);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.homepage-outside-tent-pic{
+    position: relative;
+    flex: 1;
+    z-index: 50;
+    left: -9px;
+
+    background-image: url(source_images/image3.png);
+    height: 1330px;
+    width: 890px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: -52px;
+    background-size: 890px;
+}
+.homepage-slogan{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    top: 218px;
+    left: 0px;
+    color: white;
+    font-family: 'EB Garamond', serif;
+    font-size: 43px;
+    font-weight: 400;
+    letter-spacing: 14px;
+}
+.slogan-line{
+    padding-bottom: 15px;
+}
+
+.homepage-main-body-container{
+    display: flex;
+    width: 890px;
+    position: absolute;
+    z-index: 50;
+    background-color: white;
+    top: 755px;
+    left: 0;
+}
+.main-body-whitespace{
+    width: 55px;
+}
+.homepage-main-body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+}
+.services-row{
+    display: flex;
+    flex: 1;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    align-items: top;
+}
+.services-box{
+    position: relative;
+    width: 250px;
+    height: 410px;
+    border-radius: 1px;
+    object-fit: fill;
+
+}
+.services-flower-graphic{
+    width: 100%;
+    height: 410px;
+    object-fit: cover;
+}
+.services-box-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color:   white;
+    padding-top: 90px;
+}
+.services-box-title{
+    font-family: 'Almarai', sans-serif;
+    font-size: 21px;
+    letter-spacing: 8px;
+    padding-bottom: 72px;
+    padding-left: 2px;
+}
+.services-box-motto{
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    width: 250px;
+    line-height: 30px;
+    padding-left: 93px;
+    padding-bottom: 45px;
+}
+.motto-reality{
+    padding-left: 55px;
+}
+.services-discover-button{
+    font-family: 'Almarai', sans-serif;
+    font-size: 11px;
+    color: white;
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    width: 170px;
+    height: 34px;
+}
+.services-white-space{
+    flex: 1;
+}
+.services-couple-pic{
+    width: 465px;
+    height: 410px;
+    object-fit: contain;
+}
+
+.testimonial-row{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+.testimonial-scroll-section{
+    display: flex;
+    width: 770px;
+    padding-top: 10px;
+    padding-bottom: 45px;
+    justify-content: space-between;
+    align-items: center;    
+}
+.testimonial-box{
+    display: flex;
+    flex-direction: column;
+    font-family: 'EB Garamond', serif;
+    font-size: 29px;
+    color: rgb(48, 48, 48);
+    letter-spacing: 1px;
+}
+.testimonial-text-1{
+    padding-left: 9px;
+    padding-bottom: 8px;
+}
+.testimonial-text-2{
+    padding-bottom: 8px;
+}
+.testimonial-text-3{
+    padding-left: 20px;
+}
+.testimonial-author{
+    font-family: 'Almarai', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(173, 149, 88)
+}
+.quotes-symbol-box{
+    padding-left: 10px;
+    font-size: 45px;
+    color: rgb(48, 48, 48);
+}
+.testimonial-left-arrow, .testimonial-right-arrow{
+    padding-top: 5px;
+    font-size: 30px;
+    color: rgb(173, 149, 88);
+}
+
+.gallery-row{
+    width: 780px;
+    height: 530px;
+    position: relative;
+    
+    background-image: url(source_images/image2.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 780px;
+    background-position-x: 56px;
+    background-position-y: 240px;
+}
+.gallery-box{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    top: 60px;
+    right: 60px;
+}
+.gallery-flower-graphic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery-box-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 85px;
+    left: 15px;
+    color: white;
+}
+.gallery-box-title{
+    font-family: 'Almarai', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 7px;
+    padding-left: 12px;
+    padding-bottom: 75px;
+}
+.gallery-box-motto{
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    line-height: 30px;
+    padding-left: 15px;
+    padding-bottom: 40px;
+}
+.motto-memories{
+    padding-left: 21px;
+}
+.gallery-discover-button-container{
+    padding-left: 14px;
+}
+.gallery-discover-button{
+    font-family: 'Almarai', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: white;
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    width: 133px;
+    height: 35px;
+}
+
+.footer-whitespace{
+    height: 90px;
+}
+.footer-container{
+    display: flex;
+    background-color: rgb(173, 149, 88);
+    height: 140px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-info{
+    display: flex;
+    padding-left: 70px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-address{
+    display: flex;
+    flex-direction: column;
+    border-right-style: solid;
+    border-right-color: white;
+    border-right-width: 1px;
+    height: 43px;
+    padding-right: 24px;
+}
+.footer-address-line1, .footer-address-line2{
+    padding-bottom: 1px;
+}
+.footer-contact-info{
+    padding-left: 20px;
+    height: 43px;
+    padding-right: 13px;
+    border-right-style: solid;
+    border-right-color: white;
+    border-right-width: 1px;
+}
+.footer-contact-line{
+    padding-bottom: 1px
+}
+.footer-copyright{
+    padding-left: 18px;
+}
+.footer-consultation-button-container{
+    padding-top: 15px;
+    padding-right: 60px;
+}
+.footer-consultation-button{
+    font-family: 'Almarai', sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    color: white;
+    background: none;
+    border-style: solid;
+    border-width: 1px;
+    width: 160px;
+    height: 30px;
+}
+.footer-whitespace2{
+    height: 30px;
+}
+
+.page2-header{
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
